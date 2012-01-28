@@ -1,0 +1,221 @@
+/**
+General
+**/
+@font-face {
+    font-family: 'AniversRegular';
+    src: url('../fonts/Anivers_Regular-webfont.eot');
+    src: url('../fonts/Anivers_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Anivers_Regular-webfont.woff') format('woff'),
+         url('../fonts/Anivers_Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Anivers_Regular-webfont.svg#AniversRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 100%;
+    background-color: #F7F6F0;
+}
+
+a {
+    color: #41B7D8;
+}
+
+figure {
+    margin: 0;
+}
+
+fieldset {
+	padding: 0;
+}
+
+.container {
+    padding-top: 20px;
+    border-top: 5px solid #000;
+}
+
+#logo {
+    height: 172px;
+    margin: 0;
+}
+
+    #logo a {
+        display: block;
+        height: inherit;
+    }
+    
+    #logo a:hover {
+    	text-decoration: none;
+    }
+
+nav {
+    width: inherit;
+    position: fixed;
+}
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+        nav ul li {
+            border-bottom: 1px solid #D4D4D4;
+            -moz-transition: opacity .25s linear; /* Firefox */
+            -o-transition: opacity .25s linear;  /* Opera */
+            -webkit-transition: opacity .25s linear;  /* Chrome and Safari */
+            transition: opacity .25s linear;
+        }
+
+        nav ul:hover li {
+            opacity: 0.4;
+            -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)"; /* IE8 */
+            -moz-transition: opacity .25s linear;
+            -o-transition: opacity .25s linear;
+            -webkit-transition: opacity .25s linear;
+            transition: opacity .25s linear;
+        }
+
+        nav ul li:hover {
+            opacity: 1;
+            border-bottom: 1px solid red;
+            -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* IE8 */
+        }
+
+        nav ul li.first {
+            border-bottom: 1px solid #D4D4D4;
+            border-top: 1px solid #D4D4D4;
+        }
+
+            nav ul li a {
+                display: block;
+                line-height: 30px;
+                text-indent: 30px;
+            }
+
+            nav ul li a:hover {
+                color: black;
+                background: #FF6;
+                text-decoration: none;
+            }
+
+nav ul li.active {
+    border-left: 1px solid red;
+    background: #FF6;
+}
+
+#logo_nav {
+    border-right: 1px solid #D4D4D4;
+    height: 100%;
+    position: fixed;
+    margin-left: 20px;
+}
+
+#content_wrapper {
+    padding-left: 19px;
+}
+
+header {
+    height: 172px;
+    margin-left: -20px;
+}
+    header h2, header h3 {
+        font-family: "AniversRegular";
+        font-size: 3em;
+        line-height: 45px;
+        text-transform: uppercase;
+    }
+
+    header h3 {
+        font-size: 2.3em;
+        line-height: 128px;
+    }
+
+    header p {
+        color: rgba(0, 0, 0, 0.45);
+        line-height: 50px;
+    }
+
+.header {
+    height: 97px;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.box {
+    margin-left: 0;
+    border-right: 1px solid #D4D4D4;
+    padding: 0 10px;
+}
+    .box p {
+        border-bottom: 1px solid #D4D4D4;
+        margin: 0;
+    }
+    
+    .box h3, .box p {
+        line-height: 80px;
+        text-align: center;
+    }
+
+    .box a {
+        display: block;
+        cursor: pointer;
+    }
+
+    .box h3 a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+.intro {
+	border: none;
+}
+
+	.intro h3 {
+		margin-bottom: 20px;
+		line-height: 30px;
+	}
+
+	.intro p {
+		border: none;
+		line-height: 30px;
+	}
+
+div.first {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.thumb {
+    width: 220px;
+    height: 200px;
+}
+
+#contact {
+	display: block;
+}
+
+	#contact label {
+		display: block;
+		margin: 0 0 20px 0;
+	}
+	
+	#contact input {
+		display: block;
+		margin: 0 0 20px 0;
+	}
+	
+	#contact input#submit {
+		margin: 0;
+		margin-top: 20px;
+		margin-left: 280px;
+	}
+
+.hidden {
+    display: none;
+}
+
+footer {
+	margin-left: -20px;
+	border-top: none;
+	text-align: center;
+    height: 100%;
+}

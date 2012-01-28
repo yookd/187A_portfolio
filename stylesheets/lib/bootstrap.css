@@ -264,7 +264,7 @@ a:hover {
 .row > [class*="span"] {
   display: inline;
   float: left;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 .span1 {
   width: 40px;
@@ -1715,12 +1715,12 @@ a.menu:after, .dropdown-toggle:after {
   color: #ffffff;
   text-decoration: none;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
-  background-color: #00438a;
+  background-color: #000;
 }
 .pills .active a {
   color: #ffffff;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
-  background-color: #0069d6;
+  background-color: #000;
 }
 .pills-vertical > li {
   float: none;
